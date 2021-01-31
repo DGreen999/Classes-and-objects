@@ -1,0 +1,24 @@
+package tts.com.company;
+
+public class Pet {
+
+        String name;
+        int age;
+        String location;
+
+public Pet() {
+
+        }
+
+public Pet(String name, int age, String location) {
+        this.name = name;
+        this.age = age;
+        this.location = location;
+        }
+
+public Pet(String name) {
+        this.name = name;
+        }
+        public static void main(String[] args){
+
+    }}
