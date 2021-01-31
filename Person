@@ -1,0 +1,49 @@
+package tts.com.company;
+import java.util.Scanner;
+public class Person {
+
+
+        String name;
+        int age;
+        String location;
+
+        public Person() {
+
+        }
+
+    public Object getInfo() {
+            
+        Object s = this.name;
+        return null;
+    }
+    public void setInfo(Person(String location,String name, int age)) {
+            this.name = name;
+            this.age = age;
+            this.location = location;
+        }
+    public Object getName{
+        Object getName = null;
+        return null;
+        }
+
+        public void setName(public Person(String name)) {
+                this.name = name;
+        }
+
+    
+
+    public static void main(String[] args){
+
+        System.out.print("Enter your name and location : ");
+        Scanner scanner = new Scanner(System. in);
+        String inputString = scanner. nextLine();
+        System.out.println("String read from console is : \n"+inputString);
+
+    if(inputString == "South Carolina")
+    {System.out.println("Howdy"); }
+    else if (inputString == "Mexico")
+        {System.out.println("Hola");}
+        else{
+            System.out.println("Hello");}
+        }
+   
